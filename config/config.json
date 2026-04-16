@@ -1,8 +1,8 @@
 {
   "development": {
     "username": "root",
-    "password": "Batata@123",
-    "database": "foodservice",
+    "password": "shilohdynasty",
+    "database": "hamburguer",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
