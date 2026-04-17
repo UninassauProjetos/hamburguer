@@ -25,9 +25,9 @@ Entrega.init({
         type: DataTypes.STRING,
         allowNull : false
     }
-},sequelize,
-{
-    tableName : 'entregas',
-    timestamps : true, // criar os campos deleteAt e updatedAt
-    paranoid : true
+}, {
+    sequelize,
+    tableName: 'entregas',
+    timestamps: true,
+    paranoid: true
 })

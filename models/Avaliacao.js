@@ -28,7 +28,8 @@ Avaliacao.init({
         type: DataTypes.INTEGER,
         allowNull: false
     }
-}, sequelize, {
+}, {
+    sequelize,
     tableName: 'avaliacoes',
     timestamps: true,
     paranoid: true
